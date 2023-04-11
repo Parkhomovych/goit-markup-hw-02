@@ -3,16 +3,25 @@
 --logo-web-color: #4D5AE5;
 --title-color: #2E2F42;
 --text-color: #434455;
---body-color: #434455;
+--body-index-color: #FFFFFF;
+--body-portfolio-color: #434455;
 }
 /* global styles */
-body{
+.body-index{
     font-family:'Roboto';
     font-size: 16px;
     line-height: 1.5; 
     font-style: normal;
     letter-spacing: 0.02em;
     color: var(--body-color);
+}
+.body-portfolio{
+        font-family:'Roboto';
+        font-size: 16px;
+        line-height: 1.5; 
+        font-style: normal;
+        letter-spacing: 0.02em;
+        color: var(--body-color);
 }
 .title {
     color: var(--title-color)
@@ -53,12 +62,16 @@ body{
     color: #F4F4FD;    
 }
 /* Header */
-.nav .link{    
+.nav-link{ 
+    text-decoration: none; 
+    list-style-type: none;  
     font-weight: 500;
     color: #2E2F42;
     letter-spacing: 0.02em
 }
-.contacts .link{
+.contacts-link{
+    text-decoration: none;
+    list-style-type: none;
     color: #434455;
     letter-spacing: 0.02em
 }

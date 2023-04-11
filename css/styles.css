@@ -173,7 +173,7 @@ background-color: #404BBF;
     color:var(--title-color);
 }
 ..ist-img {
-    background-color: var(--background-color);
+    background-color:#FFFFFF;
 }
 .img-title {
     font-family: 'Roboto', sans-serif;

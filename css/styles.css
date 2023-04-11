@@ -74,6 +74,9 @@ body {
     letter-spacing: 0.02em;
     color: var(--logo-header-color);
 }
+.contacts {
+    font-style: normal;
+}
 .contacts .contacts-link {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
@@ -115,6 +118,7 @@ text-decoration: underline;
     display: flex;
     align-items: center;
     letter-spacing: 0.04em;
+    cursor: pointer;
     background-color: #4D5AE5;
     color:var(--background-color);
 }
@@ -147,7 +151,7 @@ background-color: #404BBF;
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
-    line-height: 40px;
+    line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
@@ -167,6 +171,9 @@ background-color: #404BBF;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color:var(--title-color);
+}
+..ist-img {
+    background-color: var(--background-color);
 }
 .img-title {
     font-family: 'Roboto', sans-serif;

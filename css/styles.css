@@ -172,7 +172,7 @@ background-color: #404BBF;
     text-transform: capitalize;
     color:var(--title-color);
 }
-..ist-img {
+.list .img {
     background-color:#FFFFFF;
 }
 .img-title {
